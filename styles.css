@@ -1,0 +1,48 @@
+h1 {
+  color: rgb(16, 158, 214);
+  font-size: 70px;
+  text-align: center;
+}
+h2 {
+  color: rgb(234, 148, 77);
+  font-size: 60px;
+  text-align: center;
+}
+footer {
+  color: rgb(16, 158, 214);
+  font-size: 12px;
+  text-align: center;
+}
+.city-input {
+  background: white;
+  border: solid 2px rgb(234, 148, 77);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px grey;
+  color: grey;
+  font-size: 15px;
+  outline: none;
+  text-align: left;
+}
+::placeholder {
+  color: grey;
+  font-size: 15px;
+}
+.search-button {
+  background: rgb(234, 148, 77);
+  border: solid 1px rgb(234, 148, 77);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px grey;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  transition: 200ms ease-in;
+}
+.search-button:hover {
+  background: rgb(234, 148, 77, 0.8);
+  cursor: pointer;
+}
+.search-city {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
