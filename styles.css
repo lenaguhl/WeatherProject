@@ -1,15 +1,20 @@
 h1 {
   color: rgb(16, 158, 214);
+  font-family: "Gaegu", cursive;
   font-size: 70px;
+  font-weight: 400;
   text-align: center;
 }
 h2 {
   color: rgb(234, 148, 77);
+  font-family: "Gaegu", cursive;
   font-size: 60px;
+  font-weight: 400;
   text-align: center;
 }
 footer {
   color: rgb(16, 158, 214);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -19,12 +24,14 @@ footer {
   border-radius: 4px;
   box-shadow: 2px 2px 2px grey;
   color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   outline: none;
   text-align: left;
 }
 ::placeholder {
   color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
 }
 .search-button {
@@ -33,6 +40,7 @@ footer {
   border-radius: 4px;
   box-shadow: 2px 2px 2px grey;
   color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   margin: 10px;
   transition: 200ms ease-in;
@@ -43,6 +51,7 @@ footer {
 }
 .search-city {
   color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   text-align: center;
 }
