@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Weather forecast for kids
+    </h1>
+      
+    <div class="search-city">
+      What's the weather like in ... ?
+      <br />
+      <form id="search-form">
+      <input
+        autocomplete="off"
+        autofocus ="on"
+        class="city-input"
+        placeholder="Enter a city"
+        type="text"
+        />
+      <input
+        class="search-button"
+        type="submit" 
+        value= "Search"
+      />
+    </div>
+      
+    <h2 
+      id="city">
+    </h2>
+  </header>
+    
+  <div class="day-forecast">
+    <div>
+      <span class="current-date">
+      </span>
+    </div>
+    <div>
+      <span id="description">
+      current weather
+      </span>
+    </div>
+    <div>
+      <span id="wind">
+      windspeed
+      </span>
+    </div>
+    <div>
+      <span id="temperature">
+      temperature
+      </span>
+    </div>
+  </div>
+
+  <div 
+    class="week-forecast" 
+    id="weekly-forecast">
+    5 day weather forecast
+  </div>
+  
+  <footer>
+    <a href="https://github.com/lenaguhl/WeatherProject">
+    Open-source code
+    </a> 
+    by Lena Guhl
+  </footer>
+
+</body>
+</html>
