@@ -59,3 +59,34 @@ footer {
   font-size: 40px;
   margin: 20px;
 }
+.current-date {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 10px 0 0 20px;
+  text-align: center;
+}
+.day-forecast {
+  background: rgb(234, 148, 77, 0.8);
+  border: solid 1px white;
+  border-radius: 100px;
+  color: white;
+  display: grid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 10px 0 10px 10px;
+  text-align: center;
+}
+.week-forecast {
+  background: rgb(16, 158, 214);
+  border-radius: 100px;
+  color: white;
+  display: grid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 10px 0 15px 0;
+  padding: 25px;
+  text-align: center;
+}
